@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+}
+:root {
+  --primary-color: blue;
+  --secondary-color: black;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+h2 {
+  color: var(--secondary-color);
+}
+.btn-secondary {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  background-color: white;
+  /* color: var(--secondary-color); */
+}
+.btn-primary {
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  background-color: var(--secondary-color);
+  color: white;
+  /* color: var(--primary-color); */
+}
